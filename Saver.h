@@ -89,10 +89,10 @@ namespace Saver {
 	void Create() {
     std::string filename = "Imgui.ini";
 
-    // Create an ofstream (output file stream) object for writing to a file
+    
     std::ofstream outputFile(filename);
 
-    // Check if the file was successfully opened for writing
+    
     if (outputFile.is_open()) {
         
         
@@ -134,10 +134,10 @@ void AutoSave() {
 		
 	std::string filename = "Imgui.ini";
 
-    // Create an ofstream (output file stream) object for writing to a file
+    
     std::ofstream outputFile(filename);
 
-    // Check if the file was successfully opened for writing
+    
     if (outputFile.is_open()) {
         
         
